@@ -73,9 +73,9 @@
   line-height: 70px;
 }
 .summary .title {
-  color: darkgray;
+  color: hsl(224, 30%, 27%);
   font-family: sans-serif;
-  font-weight: 400;
+  font-weight: 600;
 }
 .summary div {
   width: 80%;
@@ -91,9 +91,76 @@
   padding-right: 180px;
   border: 1px solid rgb(82, 79, 79);
   border-radius: 20px;
+  background-color: white;
 }
 .div1 img {
   height: 25px;
-  padding-top: 10px;
+  padding-top: 12px;
   padding-right: 15px;
+}
+.div2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: hsl(39, 100%, 56%);
+  text-align: center;
+  padding-right: 180px;
+  border: 1px solid rgb(82, 79, 79);
+  border-radius: 20px;
+}
+.div2 img {
+  height: 25px;
+  padding-top: 12px;
+  padding-right: 15px;
+}
+.div3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: hsl(166, 100%, 37%);
+  text-align: center;
+  padding-right: 180px;
+  border: 1px solid rgb(82, 79, 79);
+  border-radius: 20px;
+}
+.div3 img {
+  height: 25px;
+  padding-top: 12px;
+  padding-right: 15px;
+}
+.div3 p {
+  font-size: 18px;
+  color: hsl(224, 30%, 27%);
+  margin-left: 230px;
+  margin-top: -25px;
+}
+.div4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: hsl(234, 85%, 45%);
+  text-align: center;
+  padding-right: 180px;
+  border: 1px solid rgb(82, 79, 79);
+  border-radius: 20px;
+}
+.div4 img {
+  height: 25px;
+  padding-top: 12px;
+  padding-right: 15px;
+}
+.div4 p {
+  font-size: 18px;
+  color: hsl(224, 30%, 27%);
+  margin-left: 230px;
+  margin-top: -25px;
+}
+.btn {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  margin-top: 30px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
 }
