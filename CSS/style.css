@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Hanken+Grotesk:wght@100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk";
+}
+.content {
+  width: 800px;
+  height: 600px;
+  border: solid 2px black;
+  margin-top: 11%;
+  display: flex;
+  margin-left: 32%;
+}
+.number {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  background-color: #3d107b;
+}
+.number h1 {
+  font-size: 20px;
+  font-weight: 600;
+  color: darkgray;
+  padding: 30px 0px 0px 120px;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.number .circle {
+  width: 200px;
+  height: 200px;
+  background-color: hsla(256, 72%, 46%, 1);
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.number h2 {
+  font-size: 60px;
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+}
+.circle h3 {
+  color: darkgray;
+}
+.number .p1 {
+  font-size: 40px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: hsl(0, 0%, 100%);
+  padding-left: 120px;
+  padding-top: 15px;
+}
+.number .p2 {
+  color: darkgrey;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 60px;
+  padding-top: 20px;
+}
